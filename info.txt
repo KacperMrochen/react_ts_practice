@@ -1,0 +1,17 @@
+https://api-ninjas.com/api/randomword <- words api
+
+File tree: 
+/app
+    /src
+        /Components
+            /Navbar
+                Navbar.tsx
+        /Styles
+            _Base.scss
+            _Variables.scss
+            App.scss
+            /Components
+                /Navbar
+                    Navbar.scss
+        App.tsx
+        index.tsx

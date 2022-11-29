@@ -1,0 +1,24 @@
+@import '../../Default/Variables.scss';
+
+.navbar {
+    width: 100vw-100px;
+    height: 80px;
+    background-color: $colorBlue;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    ul {
+        display: inline-flex;
+        gap: 24px;
+        align-items: center;
+    };
+    div {
+       width: 100px;
+       height: 80px;
+       line-height: 80px; 
+    }
+}
+
