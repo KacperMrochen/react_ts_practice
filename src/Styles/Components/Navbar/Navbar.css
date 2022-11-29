@@ -1,0 +1,21 @@
+.navbar {
+  width: 100vw- "100px";
+  height: 80px;
+  background-color: #4592AF;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.navbar ul {
+  display: inline-flex;
+  gap: 24px;
+  align-items: center;
+}
+.navbar div {
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+}/*# sourceMappingURL=Navbar.css.map */
