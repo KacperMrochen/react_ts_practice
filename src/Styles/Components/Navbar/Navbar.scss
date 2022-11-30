@@ -1,19 +1,27 @@
 @import '../../Default/Variables.scss';
 
 .navbar {
-    width: 100vw-"100px";
+    width: calc(100vw - 100px);
     height: 80px;
     background-color: $colorBlue;
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    gap: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
     ul {
-        display: inline-flex;
+        display: flex;
         gap: 24px;
         align-items: center;
+        height: 100%;
+        
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 100px;
+        }
     };
     div {
        width: 100px;

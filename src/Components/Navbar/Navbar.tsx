@@ -8,10 +8,10 @@ const Navbar = () => {
                 Logo
             </div>
             <ul className="navbar__list">
-                <li><a href="/#">Play</a></li>
-                <li><a href="/#">Leaderboard</a></li>
-                <li><a href="/#">Statistics</a></li>
-                <li><a href="/#">Settings</a></li>
+                <a href="/#"><li>Play</li></a>
+                <a href="/#"><li>Statistics</li></a>
+                <a href="/#"><li>Leaderboard</li></a>
+                <a href="/#"><li>Settings</li></a>
             </ul>
         </div>
     )
